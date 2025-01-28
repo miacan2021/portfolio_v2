@@ -17,6 +17,6 @@
   --color-blue: #bdd3ce;
   --color-orange: #e9a565;
 
-  --font-title: anton;
-  --font-text: roboto;
+  --font-title: anton, sans-serif;
+  --font-text: roboto, sans-serif;
 }
