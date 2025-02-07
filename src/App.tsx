@@ -18,8 +18,11 @@ function App() {
       <Header />
       <div className="pt-20 w-10/12 h-screen mx-auto flex justify-between items-start gap-20">
         <div className="w-1/2 h-full">
-          <div className="bg-orange rounded-2xl p-5 flex justify-between items-end">
-            <h2 className="text-secoundary font-title text-2xl">01.works</h2>
+          <div className="bg-orange rounded-2xl p-5 flex justify-between items-end hover:transform hover:scale-101 transition-transform cursor-pointer">
+            <h2 className="text-secoundary font-title text-2xl flex items-center">
+              01.works
+              <span className="material-symbols-outlined">arrow_right</span>
+            </h2>
             <div className="grid grid-cols-2 gap-2">
               <div className="bg-primary rounded-2xl h-40 w-40 text-secoundary flex flex-col justify-center items-center gap-3">
                 <h3 className="text-5xl font-bold font-title">2</h3>
@@ -47,12 +50,16 @@ function App() {
             </div>
           </div>
           <div className="flex justify-between gap-5 h-40">
-            <div className="flex items-end bg-blue rounded-2xl p-5 mt-5 w-1/2">
-              <h2 className="text-secoundary font-title text-2xl">02.about</h2>
+            <div className="flex items-end bg-blue rounded-2xl p-5 mt-5 w-1/2 hover:transform hover:scale-101 transition-transform cursor-pointer">
+              <h2 className="text-secoundary font-title text-2xl flex items-center">
+                02.about
+                <span className="material-symbols-outlined">arrow_right</span>
+              </h2>
             </div>
-            <div className="flex items-end bg-blue rounded-2xl p-5 mt-5 w-1/2">
-              <h2 className="text-secoundary font-title text-2xl">
+            <div className="flex items-end bg-blue rounded-2xl p-5 mt-5 w-1/2 hover:transform hover:scale-101 transition-transform cursor-pointer">
+              <h2 className="text-secoundary font-title text-2xl flex items-center">
                 03.contact
+                <span className="material-symbols-outlined">arrow_right</span>
               </h2>
             </div>
           </div>
@@ -78,7 +85,7 @@ function App() {
               onClick={() => copyEmail()}
               className="w-2/3 bg-secoundary text-primary px-3 py-2 rounded-full text-center cursor-pointer hover:bg-primary hover:text-secoundary"
             >
-              {isCopied ? "copied! yay!" : "copy e-mail address"}
+              {isCopied ? "copied! yay!!" : "copy e-mail address"}
             </button>
           </div>
         </div>
