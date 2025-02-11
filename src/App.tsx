@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Header from "./components/Header";
+import { ProjectSection } from "./components/ProjectSection";
 
 function App() {
   const [isCopied, setIsCopied] = useState<boolean>(false);
@@ -90,6 +91,7 @@ function App() {
           </div>
         </div>
       </div>
+      <ProjectSection />
     </div>
   );
 }
