@@ -5,6 +5,15 @@
   --foreground: #171717;
 }
 
+@theme {
+  --color-beige: #fcf3e3;
+  --color-navy: #153c58;
+  --color-sky: #bdd3ce;
+  --color-orange: #e9a565;
+  --font-anton: var(--font-anton), ui-serif;
+  --font-roboto: var(--font-roboto), ui-mono;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
