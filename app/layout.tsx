@@ -11,7 +11,7 @@ const anton = Anton({
 const roboto = Roboto({
   variable: "--font-roboto",
   subsets: ["latin"],
-  weight: ["200", "400", "700"],
+  weight: ["200", "400", "500"],
 });
 
 export const metadata: Metadata = {
