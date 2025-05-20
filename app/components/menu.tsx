@@ -30,7 +30,10 @@ const HeaderMenu: FC = () => {
           <Link href="https://www.linkedin.com/in/shiho-kazama/">linkedin</Link>
           <Link href="/resume">resume</Link>
         </div>
-        <button onClick={toggleMenu} className="block lg:hidden cursor-pointer">
+        <button
+          onClick={toggleMenu}
+          className="block lg:hidden cursor-pointer text-navy"
+        >
           {open ? <CloseIcon /> : "menu"}
         </button>
       </nav>
