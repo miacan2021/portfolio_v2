@@ -5,9 +5,21 @@ import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 
 const Hero = () => {
   return (
-    <div className="w-8/12 h-screen flex mx-auto">
+    <div className="w-8/12 h-screen flex mx-auto gap-4">
       <div className="w-1/2">
-        <h1>PORTFOLIO</h1>
+        <div className="bg-orange p-4 rounded-2xl w-full grid grid-cols-2 justify-items-center items-center gap-4">
+          <div className="bg-beige w-32 h-32">sample</div>
+          <div className="bg-beige w-32 h-32">sample</div>
+          <div className="bg-beige w-32 h-32">sample</div>
+          <div className="bg-beige w-32 h-32">sample</div>
+        </div>
+        <div className="flex justify-between gap-4 items-center pt-4">
+          <div className="bg-sky rounded-2xl w-1/2 h-32">about</div>
+          <div className="bg-sky rounded-2xl w-1/2 h-32">contact</div>
+        </div>
+        <h1 className="text-9xl font-anton leading-tight text-navy">
+          Portfolio
+        </h1>
       </div>
 
       <div className="bg-sky relative w-1/2 h-9/12 p-10 rounded-2xl flex flex-col justify-between items-center">
